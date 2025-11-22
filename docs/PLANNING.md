@@ -2,7 +2,6 @@
 
 ### Giai đoạn 1: Đặc tả đồ án
 
-- Thời gian: 1 tuần
 - Trạng thái: Đã hoàn thành
 - Kết quả:
   - Tài liệu đặc tả chi tiết
@@ -11,9 +10,8 @@
 
 ### Giai đoạn 2: Thiết kế UI/UX
 
-- Thời gian: 2 tuần
 - Trạng thái: Đang thực hiện
-- Công nghệ: Excalidraw, Figma
+- Công nghệ: Excalidraw, Figma, Draw.io
 - Công việc:
   - Thiết kế wireframe cho các trang chính
   - Thiết kế UI/UX chi tiết
@@ -21,7 +19,6 @@
 
 ### Giai đoạn 3: Frontend Development
 
-- Thời gian: 4 tuần
 - Trạng thái: Chưa bắt đầu
 - Công nghệ: React
 - Công việc:
@@ -31,7 +28,6 @@
 
 ### Giai đoạn 4: Backend Development
 
-- Thời gian: 4 tuần
 - Trạng thái: Chưa bắt đầu
 - Công nghệ: Express.js, PostgreSQL
 - Công việc:
@@ -41,7 +37,6 @@
 
 ### Giai đoạn 5: Deployment
 
-- Thời gian: 3 tuần
 - Trạng thái: Chưa bắt đầu
 - Platform: Google Cloud Platform
 - Công việc:
