@@ -6,7 +6,6 @@ Users:
 - Username (varchar(50))
 - Password (hashed)
 - Email
-- Name
 
 Quizzes:
 
@@ -48,7 +47,6 @@ Results:
 - TotalScore (int)
 - CorrectAnswers (int)
 - IncorrectAnswers (int)
-- TimeSpent (int, seconds)
 - DateTaken (datetime)
 
 UserAnswers:
@@ -57,6 +55,4 @@ UserAnswers:
 - ResultID (Foreign Key)
 - QuestionID (Foreign Key)
 - AnswerID (Foreign Key)
-- IsCorrect (bit)
-- TimeSpent (int, seconds)
-
+- TimeLeft (int, seconds)
