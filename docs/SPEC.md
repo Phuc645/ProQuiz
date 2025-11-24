@@ -60,5 +60,3 @@ Dưới profile có 2 tab:
 Quiz đã tạo: Người dùng có thể bấm vào để chỉnh sửa, hoặc xoá quiz bất kỳ. Nếu có ai đang làm thì họ vẫn tiếp tục nhưng khi xong sẽ hiện thông báo là quiz đã bị xoá nên không hiển thị kết quả và chuyển về trang chủ.
 
 Quiz đã làm: Hiển thị các quiz đã làm. Người dùng có thể bấm vào để làm lại quiz đó.
-
-

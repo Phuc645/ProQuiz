@@ -6,7 +6,7 @@
 
 - **Thời gian dự kiến**: 3 - 4 tháng
 - **Trạng thái**: Đang phát triển
-- **Documentation**: [Xem chi tiết](./Docs/SPEC.md)
+- **Documentation**: [Xem chi tiết](./docs/SPEC.md)
 
 ## Chức năng chính
 
@@ -25,6 +25,6 @@
 
 ## Tài liệu
 
-- [Đặc tả chi tiết](./Docs/SPEC.md)
-- [Kế hoạch phát triển](./Docs/PLANNING.md)
-- [Cấu trúc database](./Docs/DATABASE.md)
+- [Đặc tả chi tiết](./docs/SPEC.md)
+- [Kế hoạch phát triển](./docs/PLANNING.md)
+- [Cấu trúc database](./docs/DATABASE.md)
