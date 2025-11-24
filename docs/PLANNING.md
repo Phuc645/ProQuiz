@@ -10,7 +10,7 @@
 
 ### Giai đoạn 2: Thiết kế UI/UX
 
-- Trạng thái: Đang thực hiện
+- Trạng thái: Đã hoàn thành
 - Công nghệ: Excalidraw, Figma, Draw.io
 - Công việc:
   - Thiết kế wireframe cho các trang chính
@@ -19,7 +19,7 @@
 
 ### Giai đoạn 3: Frontend Development
 
-- Trạng thái: Chưa bắt đầu
+- Trạng thái: Đang thực hiện
 - Công nghệ: React
 - Công việc:
   - Xây dựng layout chung
