@@ -10,9 +10,11 @@ export default function Header() {
         <img src ={LogoImage} alt="App Logo" className="header__logo-image" />
       </Link>
         <input type ="search" placeholder="Search." className="header__search-bar" />
-        <Button variant="contained"  className="header__quiz-button">
-          Create a quiz
-        </Button>
+        <Link to ="" className="header__create-quiz-link">
+            <Button variant="contained"  className="header__quiz-button">
+            Create a quiz
+            </Button>
+        </Link>
         <Link to ="" className="header__avatar">
             <img src ={AvatarImage} alt="User Avatar" className="header__avatar-image" />
         </Link>
