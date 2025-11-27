@@ -1,2 +1,31 @@
 
+.homepage {
+  margin-left: 1.5em;
+  margin-top: 1em;
+}
+.featured_container {
+      margin-left: 2em;
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      .featured_card {
+        width: 350px;
+      }
+  .user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    .user-avatar {
+      padding: 0;
+      margin: 0;
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 50%;
+    }
+  }
+
+}
+
+
 
