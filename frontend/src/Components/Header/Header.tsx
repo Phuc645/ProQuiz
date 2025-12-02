@@ -11,11 +11,12 @@ export default function Header() {
       </Link>
         <input type ="search" placeholder="Search." className="header__search-bar" />
         <Link to ="" className="header__create-quiz-link">
-            <Button variant="contained"  className="header__quiz-button">
+            <Button variant="contained"  className="header__quiz-button"
+                    sx={{ textTransform: 'none', color: '#fff' }}>
             Create a quiz
             </Button>
         </Link>
-        <Link to ="" className="header__avatar">
+        <Link to ="/login" className="header__avatar">
             <img src ={AvatarImage} alt="User Avatar" className="header__avatar-image" />
         </Link>
     </header>
