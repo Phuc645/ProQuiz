@@ -1,6 +1,7 @@
 import './SignUp.scss';
 import Button from '@mui/material/Button';
 import {Link} from 'react-router-dom';
+import ButtonComponent from '../Components/ButtonComponent/ButtonComponent';
 
 export default function SignUp() {
     return (
@@ -15,10 +16,11 @@ export default function SignUp() {
                 <input type ="password" className="signup-input" />
             </div>
             <div className="signup-action">
-                <Button variant="contained"  className="signup-button"
-                        sx={{ textTransform: 'none', color: '#fff' }}>
-                    Sign Up
-                </Button>
+                <Link to="">
+                    <ButtonComponent style={{ backgroundColor: '#575d99', width: '10rem',
+                        textAlign: 'center' }}>Sign Up
+                    </ButtonComponent>
+                </Link>
                 <Link to="/login">
                 <Button
                     variant="text"

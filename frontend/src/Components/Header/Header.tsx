@@ -2,7 +2,7 @@ import './Header.scss';
 import { Link } from 'react-router-dom';
 import LogoImage from '../../assets/logo.png';
 import AvatarImage from '../../assets/avatar.png';
-import Button from '@mui/material/Button';
+import ButtonComponent from '../ButtonComponent/ButtonComponent';
 export default function Header() {
   return (
     <header className="header">
@@ -11,10 +11,8 @@ export default function Header() {
       </Link>
         <input type ="search" placeholder="Search." className="header__search-bar" />
         <Link to ="" className="header__create-quiz-link">
-            <Button variant="contained"  className="header__quiz-button"
-                    sx={{ textTransform: 'none', color: '#fff' }}>
-            Create a quiz
-            </Button>
+            <ButtonComponent style={{ backgroundColor: '#7fb8c1' }}>Create a Quiz
+            </ButtonComponent>
         </Link>
         <Link to ="/login" className="header__avatar">
             <img src ={AvatarImage} alt="User Avatar" className="header__avatar-image" />
