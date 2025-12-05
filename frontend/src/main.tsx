@@ -6,6 +6,7 @@ import Homepage from "./Homepage/Homepage";
 import Login from "./Login/Login";
 import SignUp from "./SignUp/SignUp";
 import NotFound from "./NotFound/NotFound";
+import QuizDetails from "./QuizDetails/QuizDetails";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
     {
         path: "signup",
         element: <SignUp />,
+    },
+    {
+        path: "quizdetails",
+        element: <QuizDetails />,
     },
     {
         path: "*",
