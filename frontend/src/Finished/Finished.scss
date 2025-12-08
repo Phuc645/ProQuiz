@@ -1,0 +1,25 @@
+@use '../styles/variables' as *;
+
+.finished-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    height: 100vh;
+    background-color: $quiz-background-color;
+  .finished-text {
+    margin-bottom: 10rem;
+    text-align: center;
+  }
+  .finished-title, .finished-subtitle {
+    color: $quiz-letter-color;
+    padding: 0;
+  }
+  .finished-title {
+    font-size: 5rem;
+    font-weight: bold;
+  }
+  .finished-subtitle {
+    font-size: 3rem;
+      font-weight: bold;
+    }
+}
