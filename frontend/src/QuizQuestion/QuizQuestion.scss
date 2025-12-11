@@ -6,16 +6,19 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
+
+
   .quiz-progress-bar {
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
-    width: 95%;
     height: 3rem;
     accent-color: #D6F4ED;
-    .quiz-question-number {
-      font-size: 90rem;
-      font-weight: bold;
-      margin-top: 0.5rem;
-    }
+  }
+  .quiz-question-content {
+    width: 95%;
+    margin: 1rem auto;
+    padding-left: 0.75rem;
+    box-sizing: border-box;
   }
 }
