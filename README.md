@@ -18,7 +18,7 @@
 ## Công nghệ sử dụng
 
 - **Frontend**: React
-- **Backend**: Express.js
+- **Backend**: NestJS
 - **Database**: PostgreSQL
 - **IDE**: WebStorm
 - **Cloud**: Google Cloud Platform

@@ -29,7 +29,7 @@
 ### Giai đoạn 4: Backend Development
 
 - Trạng thái: Chưa bắt đầu
-- Công nghệ: Express.js, PostgreSQL
+- Công nghệ: NestJS, PostgreSQL
 - Công việc:
   - Thiết kế và implement database
   - Xây dựng REST API
