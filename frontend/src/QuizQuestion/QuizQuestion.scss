@@ -10,15 +10,51 @@
 
   .quiz-progress-bar {
     width: 95%;
+    margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
-    height: 3rem;
+    height: 1.5rem;
     accent-color: #D6F4ED;
+    background-color: white; // ensure the unfilled (remaining) part is white
+    border-radius: 0.5rem;
+    overflow: hidden;
+
+    // WebKit browsers (Chrome, Edge, Safari)
+    &::-webkit-progress-bar {
+      background-color: white;
+    }
+    &::-webkit-progress-value {
+      background-color: #D6F4ED; // filled portion color (matches accent-color)
+    }
+
+    // Firefox
+    &::-moz-progress-bar {
+      background-color: #D6F4ED;
+    }
   }
   .quiz-question-content {
     width: 95%;
     margin: 1rem auto;
     padding-left: 0.75rem;
     box-sizing: border-box;
+  }
+  .quiz-answers {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    width: 95%;
+  }
+  .quiz-answer-button {
+    border: none;
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+
+  }
+  .quiz-answer-button:hover {
+    background-color: gray;
   }
 }
