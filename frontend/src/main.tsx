@@ -9,6 +9,7 @@ import NotFound from "./NotFound/NotFound";
 import QuizDetails from "./QuizDetails/QuizDetails";
 import Finished from "./Finished/Finished";
 import QuizQuestion from "./QuizQuestion/QuizQuestion.tsx";
+import QuizResult from "./QuizResult/QuizResult.tsx";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
     {
         path: "quizquestion",
         element: <QuizQuestion />,
+    },
+    {
+        path: "quizresult",
+         element: <QuizResult />,
     },
     {
         path: "*",

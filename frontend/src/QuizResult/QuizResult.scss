@@ -1,0 +1,25 @@
+@use '../styles/variables' as *;
+
+.quiz-result-container {
+  background-color: $quiz-background-color;
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+  height: 100vh;
+  .quiz-result-header {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+  }
+  .quiz-result-header h2, p {
+    color: $quiz-letter-color;
+  }
+    .quiz-result-header h2 {
+    font-size: 3rem;
+
+    }
+   .quiz-result-header p {
+    font-size: 1.2rem;
+   }
+}
