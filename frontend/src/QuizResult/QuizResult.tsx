@@ -2,6 +2,7 @@ import './QuizResult.scss'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import ButtonComponent from '../Components/ButtonComponent/ButtonComponent';
+import Button from "@mui/material/Button";
 
 export default function QuizResult() {
     const items = [
@@ -34,9 +35,13 @@ export default function QuizResult() {
                 <ButtonComponent style={{ backgroundColor: '#7fb8c1' }}>
                         Retake the quiz
                 </ButtonComponent>
-                <ButtonComponent style={{ backgroundColor: 'transparent' }}>
-                        Go back to the homepage
-                </ButtonComponent>
+                <Button
+                    variant="text"
+                    className="new-button"
+                    sx={{ textTransform: 'none', color: '#fff' }}
+                >
+                    Back
+                </Button>
             </div>
         </div>
     );

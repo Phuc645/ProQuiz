@@ -10,6 +10,7 @@ import QuizDetails from "./QuizDetails/QuizDetails";
 import Finished from "./Finished/Finished";
 import QuizQuestion from "./QuizQuestion/QuizQuestion.tsx";
 import QuizResult from "./QuizResult/QuizResult.tsx";
+import CreateQuiz from "./CreateQuiz/CreateQuiz.tsx";
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
     {
         path: "quizresult",
          element: <QuizResult />,
+    },
+    {
+        path: "createquiz",
+        element: <CreateQuiz />,
     },
     {
         path: "*",
